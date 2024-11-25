@@ -1,0 +1,76 @@
+/* dashboard.css */
+.dashboard-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.sidebar {
+    height: 95vh; 
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e74444;
+    padding-top: 20px;
+    z-index: 1000; /* Assurez-vous que la barre latérale est au-dessus du contenu */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.logout-button button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button button:hover {
+    background-color: #ff1a1a;
+}
+
+.main-content {
+    margin-left: 220px; /* La même largeur que la barre latérale plus un espace */
+    padding: 20px;
+    width: calc(100% - 220px); /* Ajuster la largeur en conséquence */
+    position: relative;
+    z-index: 1; /* Assurez-vous que le contenu principal est en dessous de la barre latérale */
+}
+
+.powerbi-container {
+    margin-top: 20px; /* Ajouter un espace supérieur si nécessaire */
+    display: flex;
+    justify-content: center; /* Centrer l'iframe horizontalement */
+    align-items: center; /* Centrer l'iframe verticalement si possible */
+}
+
+iframe {
+    border: none;
+}
+

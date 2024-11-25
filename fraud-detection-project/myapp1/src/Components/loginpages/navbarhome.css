@@ -1,0 +1,65 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a; /* Couleur de fond sombre */
+    padding-top: 20px;
+    border-top-right-radius: 20px; /* Coins arrondis en haut à droite */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée */
+    z-index: 1000; /* Assurez-vous que la barre latérale est au-dessus du contenu */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 12px 16px; /* Espacement augmenté */
+    text-align: left;
+    font-size: 16px; /* Taille de police augmentée */
+}
+
+.sidebar ul li a {
+    color: #ccc; /* Couleur du texte */
+    text-decoration: none;
+    display: block;
+    padding: 10px; /* Padding des liens */
+    border-radius: 8px; /* Coins arrondis pour les liens */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce pour le survol */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px; /* Ajuster la position pour ne pas être collé à gauche */
+    width: 210px; /* Largeur ajustée du bouton */
+    padding: 0; /* Supprimer le padding pour un contrôle total de la taille */
+    text-align: center; /* Centrer le texte */
+}
+
+.logout-button button {
+    width: 100%; /* Bouton largeur maximale */
+    height: 60px; /* Hauteur du bouton augmentée */
+    background-color: #ff4d4d; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none;
+    border-radius: 8px; /* Coins arrondis pour le bouton */
+    cursor: pointer;
+    font-size: 18px; /* Taille de police augmentée */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition douce pour le survol */
+}
+
+.logout-button button:hover {
+    background-color: #ff1a1a; /* Couleur de fond au survol */
+    box-shadow: 0px 0px 20px rgba(255, 77, 77, 0.5); /* Ombre plus prononcée au survol */
+}
+
+

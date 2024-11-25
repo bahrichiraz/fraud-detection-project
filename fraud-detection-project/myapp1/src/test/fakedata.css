@@ -1,0 +1,33 @@
+/* fakedata.css */
+
+.fake-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title-container {
+    margin-top: 50px;
+  }
+  
+  .form-container {
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  .result-card {
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .animated-info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  

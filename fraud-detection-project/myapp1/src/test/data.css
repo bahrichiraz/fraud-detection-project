@@ -1,0 +1,84 @@
+/* Style de base pour la structure de la page */
+
+.dashboard-container {
+    display: flex;
+}
+
+.main-content {
+    flex: 1; /* Pour que le contenu principal s'étende pour remplir l'espace restant */
+    padding: 20px;
+    text-align: center; /* Centrer le contenu principal */
+}
+
+h1 {
+    font-size: 28px; /* Augmenter la taille du titre */
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center; /* Centrer le formulaire */
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px; /* Taille de police légèrement augmentée */
+}
+
+form input[type="text"] {
+    width: calc(100% - 20px); /* Ajuster la largeur du champ avec un petit espace sur les côtés */
+    max-width: 400px; /* Limiter la largeur maximale du champ */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur calculée */
+}
+
+form button {
+    background-color: #dc3545; /* Rouge */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c82333; /* Rouge plus foncé au survol */
+}
+
+.result-card {
+    display: none; /* Cachée par défaut */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 600px; /* Limiter la largeur de la carte */
+    z-index: 1000; /* Assurer que la carte est au-dessus du contenu */
+}
+
+.result-card.active {
+    display: block; /* Afficher lorsque la classe active est présente */
+}
+
+h2 {
+    font-size: 24px; /* Taille de police pour les sous-titres */
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
