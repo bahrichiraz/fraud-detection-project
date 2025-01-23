@@ -46,11 +46,13 @@ K-means est un algorithme de clustering non hiérarchique et non supervisé. L�
  - Des algorithmes créés pour extraire les informations textuelles
  - Des algorithmes créés pour extraire les logos : L’objectif principal de cette fonction est de fournir une méthode pour extraire et analyser les emplacements et les couleurs dominantes spécifiques des logos présents dans des images extraites à partir de documents PDF.
 # Intégration des données avec Talend :
-### 1. Phase d’extraction des données (EXTRACT) :** 
-L’extraction de données constitue la première phase du processus d’intégration des données à l’entrepôt de données. Cela implique de "lire" et "interpréter" les données sources, 
-puis de les copier dans la zone de préparation pour futures manipulations. 
--La première étape pour faire un projet est de connecter aux sources des données 
--La deuxieme étape créer des jobs ( Pour filtrer les données )
+L’extraction de données constitue la première phase du processus d’intégration des données à l’entrepôt de données. \
+Cela implique de "lire" et "interpréter" les données sources, 
+puis de les copier dans la zone de préparation pour futures manipulations. \
+-La première étape pour faire un projet est de connecter aux sources des données \
+-La deuxieme étape créer des jobs ( Pour filtrer les données ) \
 -le dernier étape liée au chargemenet des données \
+\
+![jobs](https://github.com/user-attachments/assets/e50c4d0d-9c93-44e0-b4e0-da44f699459b)
 \
 ![Capture3](https://github.com/user-attachments/assets/8b798004-5ea7-4b3b-8cb8-3973c398f2b5)
