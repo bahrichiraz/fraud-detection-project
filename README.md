@@ -33,9 +33,12 @@ K-means est un algorithme de clustering non hiérarchique et non supervisé. L�
 1. Le graphique du coude : présente une explication de la variance en fonction du nombre de clusters, ce qui permet de déterminer le nombre optimal de clusters. \
    \
 ![Capture1](https://github.com/user-attachments/assets/3c896896-a5bb-41c2-b0b4-43319affca0b)
-3. Nuage de points des clusters :Les points des clusters sont regroupés dans un nuage de points, chaque point étant coloré en fonction de son cluster. \
+2. Nuage de points des clusters :Les points des clusters sont regroupés dans un nuage de points, chaque point étant coloré en fonction de son cluster. \
 \
 ![Capture2](https://github.com/user-attachments/assets/4921fb89-d48c-449b-8cc3-425ada0e7bef)
+3. Les classes des fraudes : regrouper les fraudes en 3 classes .
+![classe de fraude](https://github.com/user-attachments/assets/380abef6-f04f-4547-8a3b-0d1c28ef4c49)
+
 ### **4. Bibliothèques Utilisées :**
 - Pandas : utilisée pour la manipulation et l’analyse des données.
 - Scikit-Learn : met à disposition de simples outils performants pour l’analyse de données et l’analyse automatique.
@@ -56,3 +59,15 @@ puis de les copier dans la zone de préparation pour futures manipulations. \
 ![jobs](https://github.com/user-attachments/assets/e50c4d0d-9c93-44e0-b4e0-da44f699459b)
 \
 ![Capture3](https://github.com/user-attachments/assets/8b798004-5ea7-4b3b-8cb8-3973c398f2b5)
+### Developpement de la plateforme : 
+Cette application assure un accès fiable et sécurisé aux tableaux de bord, tout en offrant des fonctionnalités avancées telles qu’un système CRUD pour les comptes utilisateurs. De plus, elle intègre une analyse spécialisée pour la détection de fraudes dans les contrats PDF, renforçant ainsi la gestion proactive des risques et des données.
+#### Interface de connexion : 
+![img1](https://github.com/user-attachments/assets/288d6c34-6f78-41bd-8a4d-5eeae8ccceab)
+#### Interface permet à l’utilisateur de consulter le tableau de bord
+![img2](https://github.com/user-attachments/assets/05bb2466-6a65-436b-8673-93b705f335ce)
+#### Interface de gestion des contrats pdf
+![img3](https://github.com/user-attachments/assets/66e76570-3b2d-46f5-95e7-dca0f605446c)
+#### Interface de gestion des comptes 
+![activer](https://github.com/user-attachments/assets/566d2317-db88-4478-a9fd-b79326bf7f5f)
+
+
